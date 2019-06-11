@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+<android.support.v7.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:title="StudentList"
+    android:id="@+id/toolBar"
+
+    android:background="@color/colorPrimaryDark"
+    app:titleTextColor="@color/color1">
+
+</android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/color1">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:id="@+id/cardView"
+            app:cardBackgroundColor="#C2DEDC    "
+            app:cardCornerRadius="12sp"
+            app:cardElevation="3sp"
+            app:contentPadding="4sp"
+            android:foreground="@color/cardview_shadow_end_color">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:paddingBottom="5sp"
+            android:paddingTop="5sp"
+android:paddingLeft="7dp"
+            android:textSize="28sp"/>
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marks"
+            android:paddingBottom="5sp"
+            android:paddingTop="5sp"
+            android:paddingLeft="160dp"
+            android:textSize="28sp"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Rank"
+
+             android:paddingBottom="5sp"
+            android:paddingTop="5sp"
+android:paddingLeft="290dp"
+            android:textSize="28sp">
+
+
+        </TextView>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerView"
+        android:background="@color/color1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textView5"
+        android:text="No Match Found"
+        android:textSize="28sp"
+        android:visibility="gone"
+        />
+
+
+</LinearLayout>

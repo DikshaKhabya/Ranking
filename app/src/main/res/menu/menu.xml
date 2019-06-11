@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:title="Search"
+        android:theme="@style/AppTheme"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView"
+        />
+    <item
+        android:id="@+id/sortOnName"
+        android:icon="@drawable/atoz"
+        android:title="@string/sortonname"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/sortOnMarks"
+        android:icon="@drawable/sortascend"
+        android:title="@string/sortonmarks"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:title="@string/filter"
+        android:icon="@drawable/filters"
+        app:showAsAction="always"
+        android:id="@+id/filter" />
+
+
+    <item
+        android:title="@string/minimum_marks"
+
+        android:id="@+id/minimum"
+        />
+
+    <item
+        android:title="@string/maximum_marks"
+
+        android:id="@+id/maximum"/>
+
+
+</menu>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="name_array">
+        <item>Diksha</item>
+        <item>Jyoti</item>
+        <item>Lakshita</item>
+        <item>Simmi</item>
+        <item>Dilip</item>
+        <item>Aniket</item>
+        <item>Chintan</item>
+        <item>Rohit</item>
+        <item>Himangini</item>
+        <item>Seema</item>
+        <item>Ishan</item>
+        <item>Akshay</item>
+    </string-array>
+
+    <integer-array name="marks_array">
+        <item>79</item>
+        <item>88</item>
+        <item>100</item>
+        <item>78</item>
+        <item>67</item>
+        <item>45</item>
+        <item>8</item>
+        <item>89</item>
+        <item>56</item>
+        <item>12</item>
+        <item>30</item>
+        <item>66</item>
+    </integer-array>
+
+
+
+
+
+
+</resources>

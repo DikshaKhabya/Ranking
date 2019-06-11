@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ranking</string>
+    <string name="sortonmarks">SortOnMarks</string>
+    <string name="sortonname">SortOnName</string>
+    <string name="filter">Filter</string>
+    <string name="minimum_marks">Minimum Marks</string>
+    <string name="maximum_marks">Maximum Marks</string>
+</resources>
